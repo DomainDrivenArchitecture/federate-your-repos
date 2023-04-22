@@ -30,4 +30,4 @@ At the moment our CI is running on gitlab, so thats our current model
 
 ## Artefacts & CI
 
-![](/home/jem/repo/opensource/federate-your-repos/doc/ciAndArtifacts.svg)
+![](doc/ciAndArtifacts.svg)
