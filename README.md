@@ -1,8 +1,3 @@
-body{
-    background-color: white;
-}
-
-
 # federate-your-repos
 
 Support mirroring your federated repositories to common plattforms in order to get found.
@@ -25,14 +20,23 @@ But in the time beeing we will not livbe in this perfect world. So we present ou
 4. We mirror our repository to the remaining bunch of platforms in order to get found if someone is searching for our OpenSource solution.
 5. Every repository has an section where we accept Issues & PRs and where mirrors exist.
 
+
 ## Concept
 
 ### Mirroring
 
 At the moment our CI is running on gitlab, so thats our current model
 
+<div style="background-color: white;">
+
 ![](doc/repositories.svg)
+
+</div>
 
 ### Artefacts & CI
 
+<div style="background-color: white;">
+
 ![](doc/ciAndArtifacts.svg)
+
+</div>
