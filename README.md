@@ -40,3 +40,15 @@ At the moment our CI is running on gitlab, so thats our current model
 ![](doc/ciAndArtifacts.svg)
 
 </div>
+
+## Development & mirrors
+
+Development happens at: https://repo.prod.meissa.de/meissa/federate-your-repos
+
+Mirrors are:
+
+* https://codeberg.org/meissa/federate-your-repos (issues and PR)
+* https://gitlab.com/domaindrivenarchitecture/federate-your-repos 
+* https://github.com/DomainDrivenArchitecture/federate-your-repos
+
+For more details about our repository model see: https://repo.prod.meissa.de/meissa/federate-your-repos
