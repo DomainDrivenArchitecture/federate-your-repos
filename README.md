@@ -2,6 +2,16 @@
 
 Support mirroring your federated repositories to common plattforms in order to get found.
 
+## Contents
+
+- [federate-your-repos](#federate-your-repos)
+  - [Contents](#contents)
+  - [Rational](#rational)
+  - [Concept](#concept)
+    - [Mirroring](#mirroring)
+    - [Artefacts \& CI](#artefacts--ci)
+  - [Development \& mirrors](#development--mirrors)
+
 ## Rational
 
 It is always the same - it's about regaining digital sovereignty.
@@ -19,7 +29,6 @@ But in the time being we will not live in this perfect world. So we present our 
 3. We interact primarily with the platform our CI is running on.
 4. We mirror our repository to the remaining bunch of platforms in order to get found if someone is searching for our OpenSource solution.
 5. Every repository has an section where we accept Issues & PRs and where mirrors exist.
-
 
 ## Concept
 
