@@ -4,7 +4,7 @@ variable "gitlab_token" {}
 variable "repo_meissa_token_ro" {}
 
 module "dda-python-terraform" {
-  source               = "./mirror"
+  source               = "git::https://repo.prod.meissa.de/meissa/federate-your-repos.git"
   stage                = var.stage
   codeberg_gitea_token = var.codeberg_gitea_token
   github_token         = var.github_token
@@ -15,7 +15,7 @@ module "dda-python-terraform" {
 }
 
 module "dda-devops-build" {
-  source               = "./mirror"
+  source               = "git::https://repo.prod.meissa.de/meissa/federate-your-repos.git"
   stage                = var.stage
   codeberg_gitea_token = var.codeberg_gitea_token
   github_token         = var.github_token
@@ -26,7 +26,7 @@ module "dda-devops-build" {
 }
 
 module "c4k-forgejo" {
-  source               = "./mirror"
+  source               = "git::https://repo.prod.meissa.de/meissa/federate-your-repos.git"
   stage                = var.stage
   codeberg_gitea_token = var.codeberg_gitea_token
   github_token         = var.github_token
