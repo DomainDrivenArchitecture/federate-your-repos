@@ -5,7 +5,7 @@ from subprocess import run
 
 name = 'meissa'
 MODULE = 'repos'
-PROJECT_ROOT_PATH = '../../..'
+PROJECT_ROOT_PATH = '../..'
 
 
 class MyBuild(DigitaloceanBackendPropertiesMixin):
